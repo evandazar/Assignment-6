@@ -29,8 +29,8 @@ function reliableMultiply(a, b) {
       if (!(error instanceof MultiplicatorUnitFailure))
       {
         throw error
-      }
+      };
     }
-  }
+  };
 }
 console.log(reliableMultiply(8, 8));
